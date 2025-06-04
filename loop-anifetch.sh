@@ -22,6 +22,7 @@ tput civis
 
 # TODO: the cursor should be placed at end when the user does ctrl + c
 trap "tput cnorm; if [ -t 0 ]; then stty echo; fi; tput sgr0; tput cup $(tput lines) 0; exit 0" SIGINT
+stty -echo  # Disable echoing of input characters
 
 clear
 
