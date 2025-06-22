@@ -11,7 +11,7 @@ You need `chafa` to be installed. For debian/ubuntu it is `apt install chafa`. [
 
 You need `ffmpeg` to be installed. For debian/ubuntu it is `apt install ffmpeg`. [Download Instructions](https://www.ffmpeg.org/download.html)
 
-You need either `neofetch` or `fastfetch` to be installed. If you want to use `fastfetch` you must append `-ff` to the command when running anifetch. For neofetch you don't need to add any special commands. 
+You need either `neofetch` or `fastfetch` to be installed. If you want to use `fastfetch` you must append `-ff` to the command when running anifetch. For neofetch you don't need to add any special arguments. 
 
 Clone the git repo.
 
